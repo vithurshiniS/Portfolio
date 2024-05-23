@@ -190,7 +190,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    /* background:url(../images/about/welcome-banner.jpg)no-repeat; */
     background-size:cover;
     background-position: center;
     height:890px;
@@ -459,6 +459,93 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-top: 14px;
     text-transform: uppercase;
 }
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Set the height of the container to the full viewport height */
+}
+
+.skill-content {
+    width: 80%; /* Adjust the width as needed */
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Add margin 0 to remove default margin */
+}
+
+.skills-list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+/* Projects Section */
+.projects {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.projects-details {
+    margin-top: 30px;
+}
+
+.projects-content {
+    margin-top: 30px;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.project ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.project ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #b636ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #b636ff;
+}
+
+.bullet {
+    color: #b636ff; /* You can change the color of the bullet point here */
+    margin-right: 5px;
+}
+
 /*experience-time*/
 
 /*main-timeline*/
